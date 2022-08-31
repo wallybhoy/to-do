@@ -1,0 +1,75 @@
+{
+    "lists": [
+        {
+            "id": 0,
+            "name": "List One",
+            "completed": true
+        },
+        {
+            "id": 1,
+            "name": "List Two",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "name": "List Three",
+            "completed": false
+        }
+    ],
+    "listItems": [
+        {
+            "id": 0,
+            "list_id": 0,
+            "name": "List Item One",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 0,
+            "name": "List Item Two",
+            "completed": true
+        },
+        {
+            "id": 0,
+            "list_id": 0,
+            "name": "List Item Three",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 1,
+            "name": "List Item Four",
+            "completed": true
+        },
+        {
+            "id": 0,
+            "list_id": 1,
+            "name": "List Item Five",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 1,
+            "name": "List Item Six",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 2,
+            "name": "List Item Seven",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 2,
+            "name": "List Item Eight",
+            "completed": false
+        },
+        {
+            "id": 0,
+            "list_id": 2,
+            "name": "List Item Nine",
+            "completed": false
+        }
+    ]
+}

@@ -1,3 +1,90 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    @apply text-base antialiased subpixel-antialiased;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+    @apply my-5;
+    @apply font-bold;
+    @apply leading-5;
+    @apply tracking-wider;
+}
+
+h1 {
+    @apply text-3xl;
+    font-size: clamp(1.875rem, 8vw, 2.25rem);
+}
+
+h2 {
+    @apply text-3xl;
+}
+
+h3 {
+    @apply text-2xl;
+}
+
+h4 {
+    @apply text-xl;
+}
+
+h5 {
+    @apply text-lg;
+}
+
+.mainHeading {
+    @apply text-center;
+}
+
+hr {
+    @apply w-full my-6 border border-neutral-100;
+}
+
+main {
+    @apply px-4;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.newItemForm {
+    @apply fixed bottom-0 left-0 w-full px-4;
+}
+
+.newItemForm__buttonGroup {
+    @apply absolute right-6;
+    top: 1.5625rem;
+}
+
+.newItemForm__button {
+    @apply w-10 h-10 rounded;
+}
+
+.form__row {
+    @apply w-full my-4;
+}
+
+.input__container {
+    @apply w-full;
+}
+
+input[type='text'] {
+    @apply block w-full my-4 px-4 py-4 border border-neutral-200 rounded-lg;
+}
+
+.newItemForm input[type='text'] {
+    @apply pr-14;
+}
+
+button {
+    @apply block p-2 bg-cyan-600 rounded-lg text-white font-medium;
+}
